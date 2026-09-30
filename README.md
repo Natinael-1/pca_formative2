@@ -6,10 +6,10 @@ This project implements PCA using nupy for computation, matplolib for plots and 
 
 ## 2. The Dataset ##
 
-## Source: [Add source, e.g. African Development Bank / UN data portal, and link]
-## File: ObservationData_lavlqce.csv (included in this repo)
-## Coverage: African countries, years 1980-2022
-## Size: 2,322 rows (country-year observations)
-## Numeric columns:	29 economic indicators
-## Non-numeric columns:	Country (text)
-## Missing values: ##	3,193 missing cells across the numeric columns
+# Source: [Add source, e.g. African Development Bank / UN data portal, and link]
+# File: ObservationData_lavlqce.csv (included in this repo)
+# Coverage: African countries, years 1980-2022
+# Size: 2,322 rows (country-year observations)
+# Numeric columns:	29 economic indicators
+# Non-numeric columns:	Country (text)
+# Missing values: ##	3,193 missing cells across the numeric columns
