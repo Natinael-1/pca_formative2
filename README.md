@@ -6,7 +6,7 @@ This project implements PCA using nupy for computation, matplolib for plots and 
 
 ## 2. The Dataset ##
 
-- **Source:** [Add source and link]
+- **Source:** https://www.kaggle.com/datasets/mahmoudsaeed99/african-economy-from-1980-to-2022/data
 - **File:** `ObservationData_lavlqce.csv` (included in this repo)
 - **Coverage:** African countries, years 1980-2022
 - **Size:** **2,322 rows** (country-year observations)
@@ -81,17 +81,7 @@ This project implements PCA using nupy for computation, matplolib for plots and 
 
 ---
 
-## 5. Interpretation
-
-> **Note:** The written explanations are in the notebook, in the group's own words. Short summaries are below.
-
-- **Before vs. after PCA visual:** [Group to write a short summary]
-- **Why 13 components and the trade-offs:** [Group to write a short summary]
-- **What information is lost (economic activity, population pressure):** [Group to write a short summary]
-
----
-
-## 6. Limitations
+## 5. Limitations
 
 - **Median imputation** fills gaps with one value per column, which slightly reduces natural variation. This matters most for **1980**, where about 20% of values were missing.
 - **Region encoding** replaces individual countries with 5 broad regions, so country-level differences are not captured.
@@ -101,7 +91,7 @@ This project implements PCA using nupy for computation, matplolib for plots and 
 ---
 
 
-## 7. How to Run
+## 6. How to Run
 
 1. Open **PCA_Notebook.ipynb** in **Google Colab** (or Jupyter).
 2. Upload **ObservationData_lavlqce.csv** and update the file path in the first code cell if needed.
@@ -111,9 +101,4 @@ This project implements PCA using nupy for computation, matplolib for plots and 
 
 
 ---
-
-## 8. Links
-
-- **GitHub repo:** [paste link]
-- **Colab notebook:** [paste link]
 
